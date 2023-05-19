@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body {
+    background-image: linear-gradient(45deg, #000039, #FFE2D7 );
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+main {
+    display: flex;
+    margin: 10% auto 0%;
+    width: fit-content;
+    border: solid black 2px;
+    align-items: center;
+    background-color: #000039 ;
+    height: fit-content;
+    border-radius: 2px;
+}
+
+#interface {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE2D7;
+    text-align: center;
+}
+
+#login {
+    font-size: large;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 1%;
+}
+
+.inputs_login {
+    background-color: #e2dfdf;
+    border: solid black 2px;
+    border-radius: 6px;
+    padding: 1%;
+}
+
+button {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 3% 20% 3% 20%;
+    margin: auto;
+    font-size: large;
+}
+
+strong {
+    color:#eb8e03
+}
+
+ul {
+    flex-direction: column;
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+
+#img_interface {
+    width: 100%;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
