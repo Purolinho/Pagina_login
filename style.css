@@ -14,7 +14,7 @@ body {
 
 main {
     display: flex;
-    margin: 10% auto 0%;
+    margin: 5% auto 0%;
     width: fit-content;
     border: solid black 2px;
     align-items: center;
